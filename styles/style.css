@@ -20,9 +20,9 @@ body {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;           /* Включаем Flexbox */
-  justify-content: center; /* Центрируем по горизонтали */
-  align-items: center;     /* Центрируем по вертикали */
+  display: flex;           
+  justify-content: center;
+  align-items: center;     
  
 }
 
@@ -56,8 +56,8 @@ body {
 
 .search-form {
   display: flex;
-  justify-content: space-between; /* Пропорционально распределяет свободное пространство между элементами */
-  align-items: flex-start;       /* Прижимает элементы к верхней части контейнера */
+  justify-content: space-between; 
+  align-items: flex-start;       
   gap:40px;
 }
 
