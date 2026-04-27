@@ -23,7 +23,6 @@ body {
   display: flex;           
   justify-content: center;
   align-items: center;     
- 
 }
 
 .content {
@@ -40,13 +39,13 @@ body {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap:26px;
+  gap: 26px;
   width: 399px;
   height: 534px;
 }
 
 .content__list-container {
-  height:298px; 
+  height: 298px; 
   overflow-y: auto; 
   scrollbar-width: thin;     
   scrollbar-color: #b8b5b5 #3a3939; 
@@ -58,7 +57,7 @@ body {
   display: flex;
   justify-content: space-between; 
   align-items: flex-start;       
-  gap:40px;
+  gap: 40px;
 }
 
 .result__video-container {
@@ -163,16 +162,17 @@ body {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 .search-form__checkbox-list {
   display: flex;
-  gap:15px;
+  gap: 15px;
 }
 
 .search-form__label {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap:5px;
+  gap: 5px;
 }
 
 .search-form__textfield {
@@ -193,6 +193,7 @@ body {
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
 }
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -293,6 +294,7 @@ body {
 .content__card-link_current {
   background-color: #545050;
 }
+
 .button,
 .content__card-link,
 .search-form__label {
