@@ -1,1 +1,1 @@
-https://github.com/yandex-praktikum/posmotri-v-okno-fd
+https://github.com/nevzarina44-a11y/posmotri-v-okno-fd
