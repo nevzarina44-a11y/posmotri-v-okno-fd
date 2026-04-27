@@ -20,11 +20,10 @@ body {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;           
+  display: flex;
   justify-content: center;
-  align-items: center;     
+  align-items: center;
 }
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -45,18 +44,15 @@ body {
 }
 
 .content__list-container {
-  height: 298px; 
-  overflow-y: auto; 
-  scrollbar-width: thin;     
-  scrollbar-color: #b8b5b5 #3a3939; 
-  flex-direction: column;
+  height: 298px;
+  overflow-y: auto;
   position: relative;
 }
 
 .search-form {
   display: flex;
-  justify-content: space-between; 
-  align-items: flex-start;       
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 40px;
 }
 
